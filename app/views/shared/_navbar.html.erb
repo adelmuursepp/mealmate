@@ -45,7 +45,7 @@
 
 
       <% unless controller_name == "pages" %>
-        <%= link_to cl_image_tag("shopping-cart_xevyu2", class: "basket-img", width: 28, height: 28, crop: :fill), update_cart_path(@order), class: "nav-link link-white", id: "cart-button", remote: true %>
+        <%= link_to image_tag("https://cdn0.iconfinder.com/data/icons/shopping-and-commerce-outline/512/Shopping_and_Commerce_-_Outline_26-512.png", class: "basket-img", width: 28, height: 28, crop: :fill), update_cart_path(@order), class: "nav-link link-white", id: "cart-button", remote: true %>
       <% end %>
 
     <% end %>
