@@ -2,7 +2,7 @@
 <% white = false unless local_assigns.has_key? :white %>
 <div class="navbar-container <%= 'navbar-white' if white %>">
   <div class="brand-container">
-    <% logo = controller_name == "pages" ? "logowhite.png" : "logoblack.png" %>
+    <% logo = controller_name == "pages" ? "mealmatelogo.png" : "mealmatelogo.png" %>
     <%= link_to image_tag(logo, width: 70, height: 70), root_path, class: "nav-link link-white" %>
   </div>
   <div class="links-container">
